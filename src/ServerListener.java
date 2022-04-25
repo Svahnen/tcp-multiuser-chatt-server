@@ -4,9 +4,9 @@ import java.net.Socket;
 
 public class ServerListener {
 
-    public ServerListener() {
+    public ServerListener(int port) {
         while (true) {
-            try (ServerSocket serverSocket = new ServerSocket(12345)) {
+            try (ServerSocket serverSocket = new ServerSocket(port)) {
                 final Socket socketToClient = serverSocket.accept();
                 MultiUserServer clientHandler = new MultiUserServer(socketToClient);
                 clientHandler.start();
