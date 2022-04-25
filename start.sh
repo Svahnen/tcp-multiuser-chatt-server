@@ -1,1 +1,1 @@
-cd /home/svahnen/Projects/networks/TCP-chat-demo/server ; /usr/bin/env /usr/lib/jvm/java-17-openjdk-amd64/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /home/svahnen/.config/Code/User/workspaceStorage/22c78a76ca24a8b58ff35cad699bb9ef/redhat.java/jdt_ws/server_d50dc6fe/bin Main
+cd /home/svahnen/Projects/networks/TCP-chat-demo/server ; /usr/bin/env /usr/lib/jvm/java-17-openjdk-amd64/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /home/svahnen/.config/Code/User/workspaceStorage/22c78a76ca24a8b58ff35cad699bb9ef/redhat.java/jdt_ws/server_d50dc6fe/bin Main 12345
